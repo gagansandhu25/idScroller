@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News Scroller Plugin - idScroller</title>
+	<link rel="stylesheet" href="css/idScroller.css" />
+	<link rel="stylesheet" href="css/demo.css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/idScroller.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>News Scroller Demo - Infinite</h1>
+		<div class="idScrollerContainer">
+			<div class="idScroller">
+				<div class="active">
+			        <div class="eventDate"><a href="#">May 15/14</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 1</a><br>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis officia accusamus modi nobis impedit! Libero ipsum voluptate debitis! Libero, qui ipsa quia nam dolorum incidunt illum at aut reprehenderit deserunt.</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 2</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 3</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 4</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 4</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 4</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div>
+			        <div class="eventDate"><a href="#">May 15-20</a></div>
+					<div class="eventDetails">
+						<a href="#" class="eventItem">ENERGEIA 14 - Two day technical fest on Energy 4</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+		$(".idScroller").idScroller({
+			speed : 500, // animation speed.
+			pause : 2000, // pause time.
+			hoverPause : true, // pause the scroller on hover, true|false, default is true.
+			infiniteLoop : true // infinite loop means, it will keep adding the elements one after one, on false, it will go back to top after animating the last element, true|false, default is true.
+		});
+
+	});
+	</script>
+</body>
+</html>
