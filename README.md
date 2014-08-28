@@ -8,8 +8,6 @@ Details :
 
 Basic Call,
 
-<pre>
-<code>
 ```html
 <script>
 
@@ -20,14 +18,9 @@ $(document).ready(function() {
 });
 </script>
 ```
-</code>
-
-</pre>
 
 Advanced Call, all options
 
-<pre>
-<code>
 ```html
 <script>
 $(document).ready(function() {
@@ -42,8 +35,6 @@ $(document).ready(function() {
 });
 </script>
 ```
-</code>
-</pre>
 
 </li>
 
