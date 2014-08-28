@@ -69,3 +69,21 @@ h1
 	font-size: 15px;
 	font-weight: 500;
 }
+
+.idScrollerItem
+{
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+	font-size: 12px;
+	color: #888;
+}
+
+.idScrollerItem.first
+{
+	border-top: 0;
+}
+
+.idScrollerItem.last
+{
+	border-bottom: 1px solid #ddd;
+}
