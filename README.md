@@ -7,6 +7,7 @@ Details :
 
 Basic Call,
 
+<code>
 <script>
 
 $(document).ready(function() {
@@ -15,6 +16,7 @@ $(document).ready(function() {
 
 });
 </script>
+</code>
 
 Advanced Call, all options
 
