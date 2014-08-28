@@ -75,7 +75,7 @@ $.fn.idScroller = function(options) {
 					activeElem.next(".idScrollerItem").addClass("active").addClass('first');
 
 					$this.css("marginTop", 0);
-					$('.idScrollerItem').removeClass('last'); 
+					$('.idScrollerItem', $this).removeClass('last'); 
 					// and remove the current active element
 					activeElem.remove();
 
