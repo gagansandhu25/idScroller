@@ -10,6 +10,7 @@ Basic Call,
 
 <pre>
 <code>
+```js
 <script>
 
 $(document).ready(function() {
@@ -19,6 +20,7 @@ $(document).ready(function() {
 });
 </script>
 </code>
+```
 </pre>
 
 Advanced Call, all options
