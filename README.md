@@ -1,4 +1,4 @@
-Details : 
+## USAGE
 
 
 * js/idScroller.min.js is the plugin file you need to include 
